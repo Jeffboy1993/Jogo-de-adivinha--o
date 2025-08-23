@@ -3,9 +3,9 @@
 function jogoDeAdivinhacao() {
 
     const numeroSecreto = gerarNumeroAleatorio();
+      
     const tentativas = numeroDeTentativas(numeroSecreto);
-
-}
+  }
 
 // Funções Auxiliares //
 const gerarNumeroAleatorio = () => Math.floor(Math.random() * 100) + 1;
@@ -25,7 +25,7 @@ const numeroDeTentativas = (numeroSecreto) => {
     } else {
       alert("📉 O número é menor.");
     }
-
+    
     tentativas++;
   }
 

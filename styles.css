@@ -4,3 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Body */
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #0000cd;
+    background-color: #ffffff;
+}
+
+body p {
+    margin-left: 5px;
+}
+
+/* Menu */
+main h1 {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+main h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+/* Botão onclick */
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
